@@ -29,15 +29,15 @@ apt install jython jruby libcanberra-gtk-module libcanberra-gtk3-module gcc make
 ```
 
     
-# BurpSuite Community v2021.8
-[Click to download](https://portswigger.net/burp/releases/download?product=community&version=2021.8&type=Linux) and install it executing:
+# BurpSuite Community v2021.10.3
+[Click to download](https://portswigger.net/burp/releases/download?product=community&version=2021.10.3&type=Linux) and install it executing:
     
-    chmod +x burpsuite_community_linux_v2021_8.sh && ./burpsuite_community_linux_v2021_8.sh
+    chmod +x burpsuite_community_linux_v2021_10_3.sh && ./burpsuite_community_linux_v2021_10_3.sh
     
-# BurpSuite Pro v2021.8
-[Click to download](https://portswigger.net/burp/releases/download?product=pro&version=2021.8&type=Linux) and install it executing:
+# BurpSuite Pro v2021.10.3
+[Click to download](https://portswigger.net/burp/releases/download?product=pro&version=2021.10.3&type=Linux) and install it executing:
     
-    chmod +x burpsuite_pro_linux_v2021_8.sh && ./burpsuite_pro_linux_v2021_8.sh    
+    chmod +x burpsuite_pro_linux_v2021_10_3.sh && ./burpsuite_pro_linux_v2021_10_3.sh    
     
 # Install extensions in BurpSuite Community
 
