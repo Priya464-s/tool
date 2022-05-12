@@ -22,6 +22,10 @@ If Vulners Plugin detects vulnerable software it will show you CVE, advisoroies 
 - Maven
 - Python 2 + 3
 - Radamsa to fuzz your programs
+- RVM
+- Ruby
+- Jython
+- jRuby
 
 Execute
 ```
@@ -29,13 +33,13 @@ apt install jython jruby libcanberra-gtk-module libcanberra-gtk3-module gcc make
 ```
 
     
-# BurpSuite Community v2021.10.3
-[Click to download](https://portswigger.net/burp/releases/download?product=community&version=2021.10.3&type=Linux) and install it executing:
+# BurpSuite Community v2022.3.7
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.3.7&type=Linux) and install it executing:
     
     chmod +x burpsuite_community_linux_v2021_10_3.sh && ./burpsuite_community_linux_v2021_10_3.sh
     
-# BurpSuite Pro v2021.10.3
-[Click to download](https://portswigger.net/burp/releases/download?product=pro&version=2021.10.3&type=Linux) and install it executing:
+# BurpSuite Pro v2022.3.7
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.3.7&type=Linux) and install it executing:
     
     chmod +x burpsuite_pro_linux_v2021_10_3.sh && ./burpsuite_pro_linux_v2021_10_3.sh    
     
