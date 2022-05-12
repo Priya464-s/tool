@@ -51,7 +51,7 @@ Open Burp Suite -> Extender -> Options -> Python Enviroment -> Location of jytho
 #
 Open Burp Suite -> Extender -> Options -> Ruby Enviroment -> Location of jRuby JAR file:
 
-/usr/share/jruby/bin/jruby
+/usr/local/rvm/rubies/jruby-9.2.9.0/lib/jruby.jar
 #
 Open Burp Suite -> Extender -> BApp Store -> Sort by Last updated-> Install all extensions
 #
