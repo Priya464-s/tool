@@ -36,12 +36,12 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 # BurpSuite Community v2022.3.7
 [Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.3.7&type=Linux) and install it executing:
     
-    chmod +x burpsuite_community_linux_v2021_10_3.sh && ./burpsuite_community_linux_v2021_10_3.sh
+    chmod +x burpsuite_community_linux_v2022_3_7.sh && ./burpsuite_community_linux_v2022_3_7.sh
     
 # BurpSuite Pro v2022.3.7
 [Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.3.7&type=Linux) and install it executing:
     
-    chmod +x burpsuite_pro_linux_v2021_10_3.sh && ./burpsuite_pro_linux_v2021_10_3.sh    
+    chmod +x burpsuite_pro_linux_v2022_3_7.sh && ./burpsuite_pro_linux_v2022_3_7.sh  
     
 # Install extensions in BurpSuite Community
 
