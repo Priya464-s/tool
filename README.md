@@ -29,19 +29,19 @@ If Vulners Plugin detects vulnerable software it will show you CVE, advisoroies 
 
 Execute
 ```
-curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io/pkuczynski.asc | gpg --import - && source /usr/local/rvm/scripts/rvm && \curl -sSL https://get.rvm.io | bash -s stable --rails && source /usr/local/rvm/scripts/rvm && rvm install jruby && apt install jython libcanberra-gtk-module libcanberra-gtk3-module gcc make git wget -y && pip install frida && python3 -m pip install frida && pip install Pyro4 && python3 -m pip install Pyro4 && cd /usr/share && git clone https://gitlab.com/akihe/radamsa.git && cd radamsa && make && make install && echo "HAL 9000" | radamsa && cd && cd /usr/share && git clone https://github.com/PortSwigger/software-vulnerability-scanner.git && apt install maven -y && cd software-vulnerability-scanner && mvn package && cd
+curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io/pkuczynski.asc | gpg --import - && source /usr/local/rvm/scripts/rvm && \curl -sSL https://get.rvm.io | bash -s stable --rails && rvm install jruby && apt install jython libcanberra-gtk-module libcanberra-gtk3-module gcc make git wget -y && pip install frida && python3 -m pip install frida && pip install Pyro4 && python3 -m pip install Pyro4 && cd /usr/share && git clone https://gitlab.com/akihe/radamsa.git && cd radamsa && make && make install && echo "HAL 9000" | radamsa && cd && cd /usr/share && git clone https://github.com/PortSwigger/software-vulnerability-scanner.git && apt install maven -y && cd software-vulnerability-scanner && mvn package && cd
 ```
 
     
-# BurpSuite Community v2022.3.7
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.3.7&type=Linux) and install it executing:
+# BurpSuite Community v2022.5.2
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.5.2&type=Linux) and install it executing:
     
-    chmod +x burpsuite_community_linux_v2022_3_7.sh && ./burpsuite_community_linux_v2022_3_7.sh
+    chmod +x burpsuite_community_linux_v2022_5_2.sh && ./burpsuite_community_linux_v2022_5_2.sh
     
 # BurpSuite Pro v2022.3.7
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.3.7&type=Linux) and install it executing:
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.5.2&type=Linux) and install it executing:
     
-    chmod +x burpsuite_pro_linux_v2022_3_7.sh && ./burpsuite_pro_linux_v2022_3_7.sh  
+    chmod +x burpsuite_pro_linux_v2022_5_2.sh && ./burpsuite_pro_linux_v2022_5_2.sh
     
 # Install extensions in BurpSuite Community
 
