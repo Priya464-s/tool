@@ -68,15 +68,16 @@ Is time to open BurpSuite TAB called Software Vulnerability Scanner and add your
 #
 Manual activation
 #
-    java -javaagent:BurpSuiteLoader_v2022.2.4.jar -noverify -jar burpsuite_pro_v2022.2.4.jar &
+Execute keygen activator
+
+  java -jar keygen.jar
+#
+Location
+
+  cd ~/Downloads/Burp-Suite
 #
 open keygen(activator) 👇🏼
-
-    java -jar Loader.jar &
-    
-Open BurpSuite (with 7GB of Memory RAM for be fastly)
-#
-    java -javaagent:BurpSuiteLoader_v2022.2.4.jar -noverify -jar -Xmx7G burpsuite_pro_v2022.2.4.jar &
+    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/%username%/Downloads/Burp-Suite/loader.jar -noverify -jar /home/%username%/Downloads/Burp-Suite/burpsuite_pro_v2021.12.1.jar
     
 #
 # Install extensions in BurpSuite Pro
