@@ -41,7 +41,7 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 # BurpSuite Pro v2022.11.1
 [Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.11.1&type=Jar)
 
-Now download file [Burp-Suite-main.zip](https://github.com/4k4xs4pH1r3/software-vulnerability-scanner/blob/master/Burp-Suite-main.zip). 
+Now download file [Burp-Suite-main.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/Burp-Suite-main.zip). 
 Go to Downloads, "extract here" and rename as "Burp-Suite".
 
 Cut "burpsuite_pro_v2022.11.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
