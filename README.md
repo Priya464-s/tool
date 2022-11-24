@@ -69,7 +69,7 @@ Is time to open BurpSuite TAB called Software Vulnerability Scanner and add your
 
 # BurpSuite Pro Linux v2022.2.4
  
-# 
+
 Manual activation
 
     cd ~/Downloads/Burp-Suite
