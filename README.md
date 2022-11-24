@@ -38,13 +38,13 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
     
     chmod +x burpsuite_community_linux_v2022_11_1.sh && ./burpsuite_community_linux_v2022_11_1.sh
     
-# BurpSuite Pro v2022.11.1
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.11.1&type=Jar)
+# BurpSuite Pro v2021.12.1
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2021.12.1&type=Jar)
 
 Now download file [Burp-Suite-main.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/Burp-Suite-main.zip). 
 Go to Downloads, "extract here" and rename as "Burp-Suite".
 
-Cut "burpsuite_pro_v2022.11.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
+Cut "burpsuite_pro_v2021.12.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
 
       ls  
     
@@ -70,16 +70,16 @@ Now login/singup [here](https://vulners.com/userinfo) and generate/copy your API
 
 Is time to open BurpSuite TAB called Software Vulnerability Scanner and add yours.
 
-# BurpSuite Pro Linux v2022.11.1
+# BurpSuite Pro Linux v2021.12.1
  
 
 Manual activation
-
-    cd ~/Downloads/Burp-Suite
+    
+    cd ~/Downloads/Burp-Suite && java -jar keygen.jar
 #
 open keygen(activator) 👇🏼
 
-    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/%username%/Downloads/Burp-Suite/loader.jar -noverify -jar /home/%username%/Downloads/Burp-Suite/burpsuite_pro_v2022.11.1.jar
+    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/"username"/Downloads/Burp-Suite/loader.jar -noverify -jar /home/"username"/Downloads/Burp-Suite/burpsuite_pro_v2021.12.1.jar
     
 #
 # Install extensions in BurpSuite Pro
