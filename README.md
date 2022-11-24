@@ -18,7 +18,7 @@ If Vulners Plugin detects vulnerable software it will show you CVE, advisoroies 
 [![Burp Vulners plugin Tutorial Video](https://img.youtube.com/vi/klu7PTgUrow/0.jpg)](https://vimeo.com/225078901)
 
 ## BurpSuite Linux pre-requisites installation as root
-- [Oracle java version "1.8.0_291"](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+- [Oracle java version "1.8.0_351"](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
 - Maven
 - Python 2 + 3
 - Radamsa to fuzz your programs
@@ -33,15 +33,18 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 ```
 
     
-# BurpSuite Community v2022.12.1
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.9.6&type=Linux) and install it executing:
+# BurpSuite Community v2022.11.1
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.11.1&type=Linux) and install it executing:
     
-    chmod +x burpsuite_community_linux_v2022_9_6.sh && ./burpsuite_community_linux_v2022_9_6.sh
+    chmod +x burpsuite_community_linux_v2022_11_1.sh && ./burpsuite_community_linux_v2022_11_1.sh
     
-# BurpSuite Pro v2022.12.1
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2021.12.1&type=Jar) and install it, download file (Burp-Suite-main.zip). Go to Downloads, "extract here" and rename as "Burp-Suite".
+# BurpSuite Pro v2022.11.1
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.11.1&type=Jar)
 
-Cut "burpsuite_pro_v2021.12.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
+Now download file [Burp-Suite-main.zip](https://github.com/4k4xs4pH1r3/software-vulnerability-scanner/blob/master/Burp-Suite-main.zip). 
+Go to Downloads, "extract here" and rename as "Burp-Suite".
+
+Cut "burpsuite_pro_v2022.11.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
 
       ls  
     
@@ -54,7 +57,7 @@ Open Burp Suite -> Extender -> Options -> Python Enviroment -> Location of jytho
 #
 Open Burp Suite -> Extender -> Options -> Ruby Enviroment -> Location of jRuby JAR file:
 
-/usr/local/rvm/rubies/jruby-9.2.9.0/lib/jruby.jar
+/usr/local/rvm/rubies/jruby-9.4.0.0/lib/jruby.jar
 #
 Open Burp Suite -> Extender -> BApp Store -> Sort by Last updated-> Install all extensions
 #
@@ -67,7 +70,7 @@ Now login/singup [here](https://vulners.com/userinfo) and generate/copy your API
 
 Is time to open BurpSuite TAB called Software Vulnerability Scanner and add yours.
 
-# BurpSuite Pro Linux v2022.2.4
+# BurpSuite Pro Linux v2022.11.1
  
 
 Manual activation
@@ -76,7 +79,7 @@ Manual activation
 #
 open keygen(activator) 👇🏼
 
-    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/%username%/Downloads/Burp-Suite/loader.jar -noverify -jar /home/%username%/Downloads/Burp-Suite/burpsuite_pro_v2021.12.1.jar
+    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/%username%/Downloads/Burp-Suite/loader.jar -noverify -jar /home/%username%/Downloads/Burp-Suite/burpsuite_pro_v2022.11.1.jar
     
 #
 # Install extensions in BurpSuite Pro
