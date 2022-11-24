@@ -65,14 +65,12 @@ Now login/singup [here](https://vulners.com/userinfo) and generate/copy your API
 Is time to open BurpSuite TAB called Software Vulnerability Scanner and add yours.
 
 # BurpSuite Pro Linux v2022.2.4
-#
-Manual activation
-#
-  java -jar keygen.jar
-#
-Location
+# Manual activation
 
-  cd ~/Downloads/Burp-Suite
+    java -jar keygen.jar
+# Location
+
+    cd ~/Downloads/Burp-Suite
 #
 open keygen(activator) 👇🏼
 
