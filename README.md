@@ -68,8 +68,6 @@ Is time to open BurpSuite TAB called Software Vulnerability Scanner and add your
 #
 Manual activation
 #
-Execute keygen activator
-
   java -jar keygen.jar
 #
 Location
@@ -77,6 +75,7 @@ Location
   cd ~/Downloads/Burp-Suite
 #
 open keygen(activator) 👇🏼
+
     java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/%username%/Downloads/Burp-Suite/loader.jar -noverify -jar /home/%username%/Downloads/Burp-Suite/burpsuite_pro_v2021.12.1.jar
     
 #
