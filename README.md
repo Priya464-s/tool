@@ -39,8 +39,11 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
     chmod +x burpsuite_community_linux_v2022_9_6.sh && ./burpsuite_community_linux_v2022_9_6.sh
     
 # BurpSuite Pro v2022.12.1
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2021.12.1&type=Jar) and install it executing:
-    
+[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2021.12.1&type=Jar) and install it, download file (Burp-Suite-main.zip). Go to Downloads, "extract here" and rename as "Burp-Suite".
+
+Cut "burpsuite_pro_v2021.12.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
+
+      ls  
     
     
 # Install extensions in BurpSuite Community
@@ -66,11 +69,8 @@ Is time to open BurpSuite TAB called Software Vulnerability Scanner and add your
 
 # BurpSuite Pro Linux v2022.2.4
  
-Manual activation
-
-    java -jar keygen.jar
 # 
-Location
+Manual activation
 
     cd ~/Downloads/Burp-Suite
 #
