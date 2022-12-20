@@ -41,12 +41,14 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 # BurpSuite Pro v2021.12.4
 [Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.12.4&type=Jar)
 
-Now download file [Burp-Suite-main.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/Burp-Suite-main.zip). 
-Go to Downloads, "extract here" and rename as "Burp-Suite".
+Now download [BurpSuitePro.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/BurpSuitePro.zip). 
+Go to Downloads, locate the file and with rigth click select "extract here".
 
-Cut "burpsuite_pro_v2021.12.4.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
-
-      ls  
+Start BurpSuite Pro v2021.12.4
+    
+    mv ~/Downloads/burpsuite_pro_v2022.12.4.jar ~/Downloads/BurpSuitePro && cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh
+    
+Now in the Loader Press Run button and follow the sequence
     
     
 # Install extensions in BurpSuite Community
@@ -70,18 +72,6 @@ Now login/singup [here](https://vulners.com/userinfo) and generate/copy your API
 
 Is time to open BurpSuite TAB called Software Vulnerability Scanner and add yours.
 
-# BurpSuite Pro Linux v2021.12.4
- 
-
-Manual activation
-    
-    cd ~/Downloads/Burp-Suite && java -jar keygen.jar &
-#
-open keygen(activator) 👇🏼
-
-    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:~/Downloadss/Burp-Suite/loader.jar -noverify -jar ~/Downloads/Burp-Suite/burpsuite_pro_v2021.12.4.jar
-    
-#
 # Install extensions in BurpSuite Pro
 
 Open Burp Suite -> Extender -> Options -> Python Enviroment -> Location of jython standalone JAR file:
