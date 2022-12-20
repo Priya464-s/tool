@@ -45,8 +45,12 @@ Now download [BurpSuitePro.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/so
 Go to Downloads, locate the file and with rigth click select "extract here".
 
 Start BurpSuite Pro v2021.12.4
+
+(Only one time)
     
-    mv ~/Downloads/burpsuite_community_v2022.12.4.jar ~/Downloads/BurpSuitePro (Only one time)
+    mv ~/Downloads/burpsuite_community_v2022.12.4.jar ~/Downloads/BurpSuitePro
+   
+Each time that You need open BurpSuite Pro v2021.12.4
     
     cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh &
     
