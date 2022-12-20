@@ -48,7 +48,7 @@ Start BurpSuite Pro v2021.12.4
     
     mv ~/Downloads/burpsuite_pro_v2022.12.4.jar ~/Downloads/BurpSuitePro (Only one time)
     
-    cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh
+    cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh &
     
 Now in the Loader Press Run button and follow the sequence
     
