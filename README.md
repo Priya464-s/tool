@@ -48,7 +48,7 @@ Start BurpSuite Pro v2021.12.4
 
 (Only one time)
     
-    mv ~/Downloads/burpsuite_community_v2022.12.4.jar ~/Downloads/BurpSuitePro
+    mv ~/Downloads/burpsuite_pro_v2022.12.4.jar ~/Downloads/BurpSuitePro
    
 Each time that You need open BurpSuite Pro v2021.12.4
     
