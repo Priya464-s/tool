@@ -41,7 +41,7 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 # BurpSuite Pro v2021.12.4
 [Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.12.4&type=Jar)
 
-Now download [BurpSuitePro.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/BurpSuitePro.zip). 
+Now download [BurpSuitePro.zip](https://aw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/BurpSuitePro.zip). 
 Go to Downloads, locate the file and with rigth click select "extract here".
 
 Start BurpSuite Pro v2021.12.4
