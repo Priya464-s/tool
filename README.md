@@ -46,7 +46,9 @@ Go to Downloads, locate the file and with rigth click select "extract here".
 
 Start BurpSuite Pro v2021.12.4
     
-    mv ~/Downloads/burpsuite_pro_v2022.12.4.jar ~/Downloads/BurpSuitePro && cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh
+    mv ~/Downloads/burpsuite_pro_v2022.12.4.jar ~/Downloads/BurpSuitePro (Only one time)
+    
+    cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh
     
 Now in the Loader Press Run button and follow the sequence
     
