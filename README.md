@@ -75,7 +75,7 @@ Is time to open BurpSuite TAB called Software Vulnerability Scanner and add your
 
 Manual activation
     
-    cd ~/Downloads/Burp-Suite && java -jar keygen.jar
+    cd ~/Downloads/Burp-Suite && java -jar keygen.jar &
 #
 open keygen(activator) 👇🏼
 
