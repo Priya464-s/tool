@@ -18,7 +18,7 @@ If Vulners Plugin detects vulnerable software it will show you CVE, advisoroies 
 [![Burp Vulners plugin Tutorial Video](https://img.youtube.com/vi/klu7PTgUrow/0.jpg)](https://vimeo.com/225078901)
 
 ## BurpSuite Linux pre-requisites installation as root
-- [Oracle java version "1.8.0_351"](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+- [Oracle java](https://oracle.com/java/technologies/downloads/#java11)
 - Maven
 - Python 2 + 3
 - Radamsa to fuzz your programs
@@ -44,7 +44,7 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 Now download file [Burp-Suite-main.zip](https://raw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/Burp-Suite-main.zip). 
 Go to Downloads, "extract here" and rename as "Burp-Suite".
 
-Cut "burpsuite_pro_v2021.12.1.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
+Cut "burpsuite_pro_v2021.12.4.jar" and paste into the folder "Burp-Suite". Click right "Open in terminal"
 
       ls  
     
@@ -70,7 +70,7 @@ Now login/singup [here](https://vulners.com/userinfo) and generate/copy your API
 
 Is time to open BurpSuite TAB called Software Vulnerability Scanner and add yours.
 
-# BurpSuite Pro Linux v2021.12.1
+# BurpSuite Pro Linux v2021.12.4
  
 
 Manual activation
@@ -79,7 +79,7 @@ Manual activation
 #
 open keygen(activator) 👇🏼
 
-    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:~/Downloadss/Burp-Suite/loader.jar -noverify -jar ~/Downloads/Burp-Suite/burpsuite_pro_v2021.12.1.jar
+    java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:~/Downloadss/Burp-Suite/loader.jar -noverify -jar ~/Downloads/Burp-Suite/burpsuite_pro_v2021.12.4.jar
     
 #
 # Install extensions in BurpSuite Pro
