@@ -18,7 +18,7 @@ If Vulners Plugin detects vulnerable software it will show you CVE, advisoroies 
 [![Burp Vulners plugin Tutorial Video](https://img.youtube.com/vi/klu7PTgUrow/0.jpg)](https://vimeo.com/225078901)
 
 ## BurpSuite Linux pre-requisites installation as root
-- [Oracle java](https://oracle.com/java/technologies/downloads/#java11)
+- [Oracle java](https://oracle.com/java/technologies/downloads/)
 - Maven
 - Python 2 + 3
 - Radamsa to fuzz your programs
@@ -33,28 +33,13 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 ```
 
     
-# BurpSuite Community v2022.12.4
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=community&version=2022.12.4&type=Linux) and install it executing:
+# BurpSuite Community
+[Click to download](https://portswigger.net/burp/releases/community/latest) and install it executing:
     
-    chmod +x burpsuite_community_linux_v2022_12_4.sh && ./burpsuite_community_linux_v2022_12_4.sh
     
-# BurpSuite Pro v2021.12.4
-[Click to download](https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.12.4&type=Jar)
+# BurpSuite Pro
+[Click to download](https://portswigger.net/burp/releases/community/latest)
 
-Now download [BurpSuitePro.zip](https://aw.githubusercontent.com/4k4xs4pH1r3/software-vulnerability-scanner/master/BurpSuitePro.zip). 
-Go to Downloads, locate the file and with rigth click select "extract here".
-
-Start BurpSuite Pro v2021.12.4
-
-(Only one time)
-    
-    mv ~/Downloads/burpsuite_pro_v2022.12.4.jar ~/Downloads/BurpSuitePro
-   
-Each time that You need open BurpSuite Pro v2021.12.4
-    
-    cd ~/Downloads/BurpSuitePro && chmod +x start.sh && ./start.sh &
-    
-Now in the Loader Press Run button and follow the sequence
     
     
 # Install extensions in BurpSuite Community
