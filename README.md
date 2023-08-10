@@ -34,11 +34,11 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import - && curl -sSL https://rvm.io
 
     
 # BurpSuite Community
-[Click to download](https://portswigger.net/burp/releases/community/latest) and install it executing:
+[Click to download](https://portswigger.net/burp/releases/community/latest) and install it
     
     
 # BurpSuite Pro
-[Click to download](https://portswigger.net/burp/releases/community/latest)
+[Click to download](https://portswigger.net/burp/releases/professional/latest) and install it
 
     
     
